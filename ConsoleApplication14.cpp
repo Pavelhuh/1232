@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <cstring>
+#include <cstring123>
 using namespace std;
 
 int main() {
@@ -21,7 +21,7 @@ int main() {
     }
     cout << "Кількість букв 'а' у рядку: " << totalCount << endl;
 
-    // Тепер знайдемо кількість букв 'a' у прізвищі (першому слові)
+ 
     int surnameCount = 0;
     int i = 0;
     while (fullName[i] != ' ' && fullName[i] != '\0') {  // шукаємо пробіл або кінець рядка
